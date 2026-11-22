@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dahon Tea Atelier | Handcrafted Milk Tea, Fruit Tea &amp; Coffee</title>
+  <meta name="description" content="Dahon Tea Atelier (placeholder brand): a premium digital menu of classic and premium milk tea, fruit tea, coffee and add-ons, brewed fresh daily.">
+  <meta name="theme-color" content="#F7F0E4">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to the menu</a>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5a.5.5 0 0 1 0-.5z"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5M14 4c.4 2.5 2 4 5 4.2"/></symbol>
+  </svg>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Dahon Tea Atelier, back to top">
+        <img class="brand__mark" src="images/logo.svg" alt="" width="40" height="40">
+        <span class="brand__name">Dahon<span class="brand__sub">Tea Atelier</span></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <div class="site-nav__panel">
+          <p class="site-nav__tagline" aria-hidden="true">Tea, poured <em>with</em> intention.</p>
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="#collection"><span class="site-nav__index">01</span><span class="site-nav__text">Collection</span></a></li>
+            <li><a class="site-nav__link" href="#story"><span class="site-nav__index">02</span><span class="site-nav__text">Our Story</span></a></li>
+            <li><a class="site-nav__link" href="#menu"><span class="site-nav__index">03</span><span class="site-nav__text">Menu</span></a></li>
+            <li><a class="site-nav__link" href="#contact"><span class="site-nav__index">04</span><span class="site-nav__text">Visit</span></a></li>
+          </ul>
+          <div class="site-nav__foot">
+            <p class="site-nav__hours"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Open daily, 10 AM to 9 PM <span>(placeholder)</span></p>
+            <a class="btn btn--dark" href="#menu">Explore the Menu</a>
+          </div>
+        </div>
+      </nav>
+
+      <a class="btn btn--dark header-cta" href="#menu">Explore the Menu</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle__label" aria-hidden="true">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow">Dahon Tea Atelier</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="line"><span class="line__in">Tea, poured</span></span>
+            <span class="line"><span class="line__in"><em>with</em> intention.</span></span>
+          </h1>
+          <p class="hero__lead">Small-batch milk teas, fruit teas and coffee, made to order from fresh-brewed leaves and real ingredients. Slow to make, easy to love.</p>
+          <div class="hero__actions">
+            <a class="btn btn--dark" href="#menu">Explore the Menu</a>
+            <a class="btn btn--text" href="#story">Our story<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <ul class="hero__meta" aria-label="Highlights">
+            <li><strong>24</strong> handcrafted drinks</li>
+            <li><strong>Daily</strong> fresh-brewed tea</li>
+            <li><strong>Your</strong> sugar and ice level</li>
+          </ul>
+        </div>
+
+        <div class="hero-art">
+          <span class="hero-art__arch"></span>
+          <img class="hero-art__cup hero-art__cup--left" src="images/cheese-cream-hojicha.svg" alt="" width="340" height="720">
+          <img class="hero-art__cup hero-art__cup--right" src="images/peach-oolong-tea.svg" alt="" width="340" height="720">
+          <img class="hero-art__cup hero-art__cup--main" src="images/brown-sugar-milk-tea.svg" alt="Brown sugar milk tea with tiger-stripe syrup and pearls, with a hojicha latte and a peach oolong tea" width="340" height="720" fetchpriority="high">
+          <p class="hero-art__caption"><span class="hero-art__no">No. 01</span><span>Brown Sugar Milk Tea</span><span class="hero-art__price"><span class="peso">₱</span>95</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="section collection" id="collection" aria-labelledby="collection-title">
+      <div class="container">
+        <header class="section-head section-head--split" data-reveal>
+          <div>
+            <p class="eyebrow">The Collection</p>
+            <h2 class="section-title" id="collection-title">Three pours <em>we're known for.</em></h2>
+          </div>
+          <p class="section-lead">The drinks regulars order again and again. Select any card for a closer look. Prices shown are sample placeholders.</p>
+        </header>
+        <ul class="collection__list">
+          <li class="product-card product-card--feature" data-slug="brown-sugar-milk-tea" data-category="classic" data-tone="caramel" data-notes="Assam tea · Fresh milk · Brown sugar syrup · Pearls" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/brown-sugar-milk-tea.svg" alt="Brown sugar milk tea with tiger-stripe syrup and pearls" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span><span class="product-card__num" aria-hidden="true">01</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Brown Sugar Milk Tea</button></h3>
+                <p class="product-card__desc">Fresh milk over slow-cooked brown sugar syrup with chewy pearls.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>95</p>
+                <span class="product-card__more" aria-hidden="true">View details<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              </div>
+            </article>
+          </li>
+          <li class="product-card product-card--feature" data-slug="cheese-cream-hojicha" data-category="premium" data-tone="hojicha" data-notes="Hojicha · Cream cheese · Sea salt" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/cheese-cream-hojicha.svg" alt="Hojicha latte with cheese cream" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span><span class="product-card__num" aria-hidden="true">02</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Cheese Cream Hojicha</button></h3>
+                <p class="product-card__desc">Roasted hojicha topped with a salted cheese cream cap.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>125</p>
+                <span class="product-card__more" aria-hidden="true">View details<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              </div>
+            </article>
+          </li>
+          <li class="product-card product-card--feature" data-slug="calamansi-honey-tea" data-category="fruit" data-tone="lime" data-notes="Black tea · Calamansi · Honey" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/calamansi-honey-tea.svg" alt="Calamansi honey tea with lime slices" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span><span class="product-card__num" aria-hidden="true">03</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Calamansi Honey Tea</button></h3>
+                <p class="product-card__desc">Fresh calamansi and local honey over chilled black tea.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>90</p>
+                <span class="product-card__more" aria-hidden="true">View details<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SEASONAL -->
+    <section class="seasonal" id="seasonal" aria-labelledby="seasonal-title">
+      <div class="container seasonal__grid">
+        <div class="seasonal__art" data-tone="caramel" data-reveal>
+          <span class="seasonal__disc"></span>
+          <img class="seasonal__cup" src="images/bibingka-cream-milk-tea.svg" alt="Bibingka cream milk tea topped with toasted coconut cream" width="340" height="720" loading="lazy" decoding="async">
+          <p class="seasonal__tag">Limited run<br>Nov 28 to Jan 6 <span>(placeholder dates)</span></p>
+        </div>
+        <div class="seasonal__copy" data-reveal>
+          <p class="eyebrow">Seasonal pour</p>
+          <h2 class="seasonal__title" id="seasonal-title">Bibingka Cream <em>Milk Tea</em></h2>
+          <p class="seasonal__text">Our holiday signature. Spiced black tea and fresh milk, finished with a toasted coconut cream inspired by the Simbang Gabi favorite. Here for the season only.</p>
+          <p class="seasonal__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>145</p>
+          <div class="seasonal__actions">
+            <button class="btn btn--light" type="button" data-product-open="bibingka-cream-milk-tea">See details<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="section story" id="story" aria-labelledby="story-title">
+      <div class="container">
+        <p class="eyebrow" data-reveal>Our Story</p>
+        <h2 class="story__statement" id="story-title" data-reveal>A good cup <em>takes its time.</em> So do we.</h2>
+
+        <div class="story__grid">
+          <div class="story__media">
+            <figure class="story__fig story__fig--tall" data-reveal="image">
+              <img src="images/story-kettle.svg" alt="Illustration of an iron teapot steaming beside scattered tea leaves" width="800" height="1000" loading="lazy" decoding="async">
+            </figure>
+            <figure class="story__fig story__fig--small" data-reveal="image">
+              <img src="images/story-ingredients.svg" alt="Illustration of a bowl of tapioca pearls and tea leaves" width="800" height="600" loading="lazy" decoding="async">
+            </figure>
+          </div>
+
+          <div class="story__text" data-reveal>
+            <p class="story__lead">[Brand story placeholder] Dahon began as a corner stall with one kettle and a stubborn belief that milk tea should taste like tea. Replace this with the shop's real origin story, who started it and why.</p>
+            <p>[Shop introduction placeholder] Every morning we steep the day's tea, cook pearls in small batches and build each drink to order. Add a few lines about the shop's atmosphere, seating and neighborhood here.</p>
+            <dl class="story__facts">
+              <div><dt>12h</dt><dd>cold-steeped tea (placeholder)</dd></div>
+              <div><dt>2h</dt><dd>pearls cooked fresh (placeholder)</dd></div>
+              <div><dt>0</dt><dd>powders or shortcuts (placeholder)</dd></div>
+            </dl>
+            <p class="story__sign">The founders, Dahon Tea Atelier</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <header class="section-head section-head--split" data-reveal>
+          <div>
+            <p class="eyebrow">The Menu</p>
+            <h2 class="section-title" id="menu-title">Find your <em>pour.</em></h2>
+          </div>
+          <p class="section-lead">Every drink is made to order, with sweetness and ice your way. Select a drink for details. <strong>All items and prices are sample placeholders.</strong></p>
+        </header>
+
+        <div class="filter-bar" data-reveal>
+          <div class="filter-bar__scroll" role="group" aria-label="Filter menu by category" data-filter-scroll>
+            <span class="filter-bar__indicator" aria-hidden="true"></span>
+              <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="chip" type="button" data-filter="classic" aria-pressed="false">Classic Milk Tea</button>
+              <button class="chip" type="button" data-filter="premium" aria-pressed="false">Premium Milk Tea</button>
+              <button class="chip" type="button" data-filter="fruit" aria-pressed="false">Fruit Tea</button>
+              <button class="chip" type="button" data-filter="coffee" aria-pressed="false">Coffee</button>
+              <button class="chip" type="button" data-filter="addons" aria-pressed="false">Add-ons</button>
+          </div>
+        </div>
+        <p class="menu__status" id="menu-status" role="status" aria-live="polite">Showing 24 drinks</p>
+
+        <ul class="product-grid" id="product-grid">
+          <li class="product-card" data-slug="classic-milk-tea" data-category="classic" data-tone="milk" data-notes="Black tea blend · Fresh milk · Tapioca pearls">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/classic-milk-tea.svg" alt="Classic milk tea with tapioca pearls" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Classic Milk Tea</button></h3>
+                <p class="product-card__desc">Our house black tea blend with creamy milk and tapioca pearls.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>85</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="brown-sugar-milk-tea" data-category="classic" data-tone="caramel" data-notes="Assam tea · Fresh milk · Brown sugar syrup · Pearls" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/brown-sugar-milk-tea.svg" alt="Brown sugar milk tea with tiger-stripe syrup and pearls" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Brown Sugar Milk Tea</button></h3>
+                <p class="product-card__desc">Fresh milk over slow-cooked brown sugar syrup with chewy pearls.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>95</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="taro-milk-tea" data-category="classic" data-tone="taro" data-notes="Jasmine tea · Real taro · Fresh milk">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/taro-milk-tea.svg" alt="Lavender taro milk tea with pearls" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Taro Milk Tea</button></h3>
+                <p class="product-card__desc">Smooth, nutty taro blended with jasmine milk tea.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>100</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="wintermelon-milk-tea" data-category="classic" data-tone="honey" data-notes="Wintermelon syrup · Black tea · Honey jelly">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/wintermelon-milk-tea.svg" alt="Golden wintermelon milk tea with jelly" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Wintermelon Milk Tea</button></h3>
+                <p class="product-card__desc">Light caramel sweetness, a mellow tea finish and honey jelly.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>90</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="hokkaido-milk-tea" data-category="classic" data-tone="cream" data-notes="Roasted black tea · Hokkaido-style milk · Milk foam">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/hokkaido-milk-tea.svg" alt="Hokkaido milk tea with milk foam" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Classic Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Hokkaido Milk Tea</button></h3>
+                <p class="product-card__desc">Roasted black tea and milk, finished with a soft milk foam.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>105</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="cheese-cream-hojicha" data-category="premium" data-tone="hojicha" data-notes="Hojicha · Cream cheese · Sea salt" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/cheese-cream-hojicha.svg" alt="Hojicha latte with cheese cream" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Cheese Cream Hojicha</button></h3>
+                <p class="product-card__desc">Roasted hojicha topped with a salted cheese cream cap.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>125</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="oolong-cream-milk-tea" data-category="premium" data-tone="honey" data-notes="Oolong · Fresh milk · Vanilla cream">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/oolong-cream-milk-tea.svg" alt="Oolong milk tea with cream top" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Oolong Cream Milk Tea</button></h3>
+                <p class="product-card__desc">Floral oolong, fresh milk and a cloud of vanilla cream.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>130</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="black-sesame-latte" data-category="premium" data-tone="sesame" data-notes="Black sesame paste · Fresh milk · Cream">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/black-sesame-latte.svg" alt="Black sesame latte with cream and pearls" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Black Sesame Latte</button></h3>
+                <p class="product-card__desc">Stone-ground black sesame, lightly sweet and toasty.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>135</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="salted-caramel-pearl-milk-tea" data-category="premium" data-tone="caramel" data-notes="Black tea · House caramel · Sea salt cream · Pearls">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/salted-caramel-pearl-milk-tea.svg" alt="Salted caramel milk tea with drizzle and pearls" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Salted Caramel Pearl Milk Tea</button></h3>
+                <p class="product-card__desc">Caramel milk tea, sea salt cream and warm brown sugar pearls.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>140</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="bibingka-cream-milk-tea" data-category="premium" data-tone="caramel" data-notes="Spiced black tea · Toasted coconut cream · Pearls" data-badge="season">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/bibingka-cream-milk-tea.svg" alt="Bibingka cream milk tea with coconut cream" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge badge--season">Seasonal</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Premium Milk Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Bibingka Cream Milk Tea</button></h3>
+                <p class="product-card__desc">Our holiday pour: toasted coconut cream over spiced milk tea.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>145</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="passion-fruit-green-tea" data-category="fruit" data-tone="citrus" data-notes="Jasmine green tea · Passion fruit pulp · Ice">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/passion-fruit-green-tea.svg" alt="Passion fruit green tea with fruit slices" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Passion Fruit Green Tea</button></h3>
+                <p class="product-card__desc">Bright jasmine green tea with real passion fruit pulp.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>95</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="peach-oolong-tea" data-category="fruit" data-tone="peach" data-notes="Oolong · Ripe peach · Honey">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/peach-oolong-tea.svg" alt="Peach oolong tea with peach slices" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Peach Oolong Tea</button></h3>
+                <p class="product-card__desc">Light oolong shaken with ripe peach and a touch of honey.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>100</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="lychee-rose-tea" data-category="fruit" data-tone="rose" data-notes="Rose tea · Lychee · Lychee jelly">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/lychee-rose-tea.svg" alt="Lychee rose tea with jelly" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Lychee Rose Tea</button></h3>
+                <p class="product-card__desc">Delicate rose tea with sweet lychee jelly.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>105</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="strawberry-green-tea" data-category="fruit" data-tone="berry" data-notes="Green tea · Strawberry purée · Ice">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/strawberry-green-tea.svg" alt="Strawberry green tea with fruit slices" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Strawberry Green Tea</button></h3>
+                <p class="product-card__desc">Fresh strawberry purée over crisp green tea and ice.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>105</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="calamansi-honey-tea" data-category="fruit" data-tone="lime" data-notes="Black tea · Calamansi · Honey" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/calamansi-honey-tea.svg" alt="Calamansi honey tea with lime slices" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Fruit Tea</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Calamansi Honey Tea</button></h3>
+                <p class="product-card__desc">Fresh calamansi and local honey over chilled black tea.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>90</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="iced-americano" data-category="coffee" data-tone="coffee" data-notes="Double espresso · Filtered water · Ice">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/iced-americano.svg" alt="Iced americano" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Coffee</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Iced Americano</button></h3>
+                <p class="product-card__desc">Double shot of espresso over ice. Clean, bold, refreshing.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>85</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="caramel-macchiato" data-category="coffee" data-tone="caramel" data-notes="Espresso · Vanilla milk · House caramel" data-badge="best">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/caramel-macchiato.svg" alt="Layered caramel macchiato" width="340" height="720" loading="lazy" decoding="async">
+                <span class="badge">Bestseller</span>
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Coffee</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Caramel Macchiato</button></h3>
+                <p class="product-card__desc">Vanilla milk, espresso and a ribbon of golden caramel.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>115</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="spanish-latte" data-category="coffee" data-tone="cream" data-notes="Espresso · Condensed milk · Fresh milk">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/spanish-latte.svg" alt="Iced Spanish latte" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Coffee</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Spanish Latte</button></h3>
+                <p class="product-card__desc">Espresso with condensed milk for a silky, sweet finish.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>120</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="hazelnut-latte" data-category="coffee" data-tone="mocha" data-notes="Espresso · Hazelnut syrup · Milk foam">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/hazelnut-latte.svg" alt="Hazelnut latte with milk foam" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Coffee</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Hazelnut Latte</button></h3>
+                <p class="product-card__desc">Roasted hazelnut syrup, espresso and milk foam.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>120</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="mocha-latte" data-category="coffee" data-tone="mocha" data-notes="Espresso · Dark chocolate · Steamed milk">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/mocha-latte.svg" alt="Mocha latte with foam and drizzle" width="340" height="720" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Coffee</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Mocha Latte</button></h3>
+                <p class="product-card__desc">Dark chocolate and espresso with steamed milk.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>125</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="addon-tapioca-pearls" data-category="addons" data-tone="milk" data-notes="Tapioca · Brown sugar glaze">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/addon-tapioca-pearls.svg" alt="A cup of tapioca pearls" width="340" height="560" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Add-ons</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Tapioca Pearls</button></h3>
+                <p class="product-card__desc">Brown sugar glazed, cooked fresh every two hours.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>20</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="addon-cheese-foam" data-category="addons" data-tone="cream" data-notes="Cream cheese · Cream · Sea salt">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/addon-cheese-foam.svg" alt="A cup of cheese foam" width="340" height="560" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Add-ons</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Cheese Foam</button></h3>
+                <p class="product-card__desc">Whipped cream cheese with a pinch of sea salt.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>30</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="addon-pudding" data-category="addons" data-tone="honey" data-notes="Eggs · Milk · Caramel">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/addon-pudding.svg" alt="A cup of egg pudding" width="340" height="560" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Add-ons</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Egg Pudding</button></h3>
+                <p class="product-card__desc">Silky custard pudding, made in small batches.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>25</p>
+                
+              </div>
+            </article>
+          </li>
+          <li class="product-card" data-slug="addon-coffee-jelly" data-category="addons" data-tone="coffee" data-notes="House coffee · Gelatin · Sugar">
+            <article class="product-card__inner">
+              <div class="product-card__media">
+                <img class="product-card__img" src="images/addon-coffee-jelly.svg" alt="A cup of coffee jelly" width="340" height="560" loading="lazy" decoding="async">
+                
+              </div>
+              <div class="product-card__body">
+                <p class="product-card__cat">Add-ons</p>
+                <h3 class="product-card__name"><button class="product-card__trigger" type="button" data-product-trigger>Coffee Jelly</button></h3>
+                <p class="product-card__desc">Firm, lightly sweet jelly made from our house coffee.</p>
+                <p class="product-card__price"><span class="visually-hidden">Sample price: </span><span class="peso">₱</span>25</p>
+                
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__intro" data-reveal>
+          <p class="eyebrow">Visit</p>
+          <h2 class="section-title" id="contact-title">Come find <em>us.</em></h2>
+          <p class="section-lead">All details below are placeholders for the client to replace.</p>
+          <address class="contact__address">
+            <p><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>123 Sample Street, Barangay Placeholder<br>Your City, Philippines 0000</span></p>
+          </address>
+          <ul class="contact__links">
+            <li><a class="contact-link" href="tel:+630000000000"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>+63 000 000 0000</a></li>
+            <li><a class="contact-link" href="mailto:hello@example.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>hello@example.com</a></li>
+          </ul>
+        </div>
+
+        <div class="contact__card" data-reveal>
+          <h3 class="contact__card-title"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Opening hours</h3>
+          <dl class="hours-list">
+            <div><dt>Monday to Friday</dt><dd>10:00 AM to 9:00 PM</dd></div>
+            <div><dt>Saturday</dt><dd>10:00 AM to 10:00 PM</dd></div>
+            <div><dt>Sunday</dt><dd>11:00 AM to 9:00 PM</dd></div>
+          </dl>
+          <div class="map-card" role="img" aria-label="Map placeholder">
+            <span class="map-card__pin"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <span class="map-card__text">Map placeholder</span>
+          </div>
+          <ul class="social-list" aria-label="Social media">
+            <li><a class="social-link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg>Facebook</a></li>
+            <li><a class="social-link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a></li>
+            <li><a class="social-link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg>TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand brand--light" href="#top" aria-label="Dahon Tea Atelier, back to top">
+            <img class="brand__mark" src="images/logo.svg" alt="" width="40" height="40">
+            <span class="brand__name">Dahon<span class="brand__sub">Tea Atelier</span></span>
+          </a>
+          <p class="footer__tagline">Tea, poured with intention.</p>
+        </div>
+        <nav class="footer__col" aria-label="Footer">
+          <h2 class="footer__heading">Explore</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="#collection">Collection</a></li>
+            <li><a class="footer__link" href="#story">Our Story</a></li>
+            <li><a class="footer__link" href="#menu">Menu</a></li>
+            <li><a class="footer__link" href="#contact">Visit</a></li>
+          </ul>
+        </nav>
+        <div class="footer__col">
+          <h2 class="footer__heading">Contact</h2>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="tel:+630000000000">+63 000 000 0000</a></li>
+            <li><a class="footer__link" href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><span class="footer__text">123 Sample Street, Your City</span></li>
+            <li><span class="footer__text">Open daily, 10 AM to 9 PM</span></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--social">
+          <h2 class="footer__heading">Follow</h2>
+          <ul class="footer__list footer__list--social">
+            <li><a class="footer__link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg>Facebook</a></li>
+            <li><a class="footer__link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a></li>
+            <li><a class="footer__link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg>TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__wordmark" aria-hidden="true">Dahon</p>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Dahon Tea Atelier. All rights reserved.</p>
+        <p>Design prototype. Brand name, prices and details are placeholders.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PRODUCT DETAIL -->
+  <dialog class="product-modal" id="product-modal" aria-labelledby="modal-title">
+    <div class="product-modal__sheet">
+      <button class="modal-close" type="button" aria-label="Close product details" data-modal-close>
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <div class="product-modal__media" data-modal-media>
+        <img class="product-modal__img" src="images/classic-milk-tea.svg" alt="" width="340" height="720" data-modal-img>
+      </div>
+      <div class="product-modal__content">
+        <p class="eyebrow" data-modal-cat></p>
+        <h2 class="product-modal__title" id="modal-title" data-modal-title></h2>
+        <p class="product-modal__badge" data-modal-badge hidden></p>
+        <p class="product-modal__desc" data-modal-desc></p>
+        <p class="product-modal__notes"><span>Made with</span><span data-modal-notes></span></p>
+        <p class="product-modal__price"><span class="visually-hidden">Sample price: </span><span data-modal-price></span></p>
+        <p class="product-modal__fine">Informational preview. Ask at the counter to choose your sweetness, ice and add-ons. Prices are placeholders.</p>
+        <button class="btn btn--outline modal-done" type="button" data-modal-close>Close</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
